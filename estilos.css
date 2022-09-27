@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+
+   /* background: linear-gradient(150deg, #76448A ,#73C6B6 ); Aplicar degradado de fondo
+    height: 100vh;*/
+
+    background: linear-gradient(rgba( 5, 7,12, 0.5), rgba(243, 48, 46,0.7)),url("paisaje1.jpg");
+   
+    height: 100vh;
+    background-repeat: no-repeat; /* para que la imagen no se repita*/
+    background-size: cover; /*para que la imagen abarque toda la pantalla*/
+
+
+    
+    /*Bloque para centrar el cuadro del formulario*/
+    display: flex; 
+    justify-content: center; /*centrar horizontal*/
+    align-items: center;     /*centrar vertical*/
+}
+
+#contenedor{
+
+background: white;
+border-radius: 10px; /* esquinas redondeadas*/
+width: 400px;
+}
+
+h1{
+    color: #5B2C6F ;
+    text-align: center;
+    border-bottom: 1px solid silver; /*coloca la linea debajo del texto INICIO DE SESIÓN*/
+    padding: 0 0 20px 0;
+
+}
+
+
+ #contenedor form{
+    padding: 0 40px;
+    
+    box-sizing: border-box;
+} 
+
+
+form .ingreso{
+
+    /*position: relative;*/
+    border-bottom: 2px solid rgb(198, 105, 105);
+    margin: 20px;
+}
+
+
+
+ .ingreso .cuadroText{
+
+    width: 100%;
+    padding-left: 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    /*background: none;*/
+   outline: none;
+    
+}
+
+#recordar{
+    margin: 5px 0 20px 5px;
+    color: blue;
+}
+
+#boton{
+    width: 100%;
+    height: 50px;
+    border: 1px solid blueviolet;
+    background: #6c3483;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer; /* coloca la manita*/
+
+}
+
+
+
+#registrarse{
+
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}
+
+#registrarse a{
+    color: blue;
+    text-decoration: none; /* parea quitar la linea de subrayado se vuelve a poner con el a:hover*/
+}
+
+
+#registrarse a:hover{
+
+text-decoration: underline; /* subrayado al hacer posicionarse sobre el enlace*/
+
+}
+
+
+
+

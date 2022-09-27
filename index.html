@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+
+    <div id="contenedor">
+        <h1>Formulario de ingreso</h1>
+
+        <form  method="post">
+           
+            <div class="ingreso">
+
+                <label class="etiqueta">Nombre de usuario</label>
+                <input type="text" class="cuadroText" id="textUsuario">
+            </div>
+
+
+            <div class="ingreso">
+                <label class="etiqueta">Ingrese contraseña</label>
+                <input type="text" class="cuadroText" id="textPassword">
+            </div>
+            
+
+
+            <div id="recordar"> <a href="#"> ¿Olvido su contraseña?  </a></div>
+            <button id="boton" onclick="validarUsuario()">Enviar</button>
+
+            <div id="registrarse">Quiero hacer el <a href="#">registro</a></div>
+        </form>
+
+
+    </div>
+    
+
+
+    <script src="validar.js"></script>
+</body>
+</html>
